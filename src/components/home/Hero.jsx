@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
+import dsEngineeringWorks from '../../assets/ds_engineering_works.jpg'
 
 function Hero() {
   const { ref, inView } = useInView({
@@ -17,7 +18,7 @@ function Hero() {
         <div 
           className="absolute inset-0 bg-center bg-cover z-0"
           style={{
-            backgroundImage: "url('https://i.pinimg.com/1200x/79/26/c0/7926c0b017720102df45d45f060f5899.jpg')",
+            backgroundImage: `url(${dsEngineeringWorks})`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
