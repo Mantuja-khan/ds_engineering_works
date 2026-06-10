@@ -393,14 +393,14 @@ function Services() {
               </a>
               <div className="flex items-center space-x-6">
                 <a 
-                  href="tel:+919811032026" 
+                  href="tel:+919354130059" 
                   className="flex items-center space-x-2 text-primary-100 hover:text-white transition-colors"
                 >
                   <FaPhone size={20} />
-                  <span className="font-semibold">+91 98110 32026</span>
+                  <span className="font-semibold">+91 93541 30059</span>
                 </a>
                 <a 
-                  href="mailto:dsengineering2000@gmail.com" 
+                  href="mailto:admin@dsengineeringworks.com" 
                   className="flex items-center space-x-2 text-primary-100 hover:text-white transition-colors"
                 >
                   <FaEnvelope size={20} />

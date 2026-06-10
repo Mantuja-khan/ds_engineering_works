@@ -42,9 +42,9 @@ serve(async (req) => {
     const smtpConfig = {
       host: Deno.env.get('SMTP_HOST') || 'smtp.gmail.com',
       port: parseInt(Deno.env.get('SMTP_PORT') || '587'),
-      username: Deno.env.get('SMTP_USER') || 'dsengineering2000@gmail.com',
+      username: Deno.env.get('SMTP_USER') || 'admin@dsengineeringworks.com',
       password: Deno.env.get('SMTP_PASS'),
-      companyEmail: Deno.env.get('COMPANY_EMAIL') || 'dsengineering2000@gmail.com'
+      companyEmail: Deno.env.get('COMPANY_EMAIL') || 'admin@dsengineeringworks.com'
     }
 
     if (!smtpConfig.password) {
@@ -150,8 +150,8 @@ serve(async (req) => {
             </ul>
             
             <p><strong>Contact Information:</strong></p>
-            <p>DS Engineering | Plot No. 195, Sector-24, Faridabad, Haryana 121005<br>
-            Phone: +91 98110 32026 | Email: dsengineering2000@gmail.com</p>
+            <p>DS Engineering | H-402, RIICO INDUSTRIAL AREA, Khuskhera, Alwar, Rajasthan 301707<br>
+            Phone: +91 93541 30059 | Email: admin@dsengineeringworks.com</p>
             
             <p><em>This email was automatically generated from your website contact form.</em></p>
         </div>
@@ -187,9 +187,9 @@ Please respond to the customer promptly.
 
 ---
 DS Engineering
-Plot No. 195, Sector-24, Faridabad, Haryana 121005
-Phone: +91 98110 32026
-Email: dsengineering2000@gmail.com
+H-402, RIICO INDUSTRIAL AREA, Khuskhera, Alwar, Rajasthan 301707
+Phone: +91 93541 30059
+Email: admin@dsengineeringworks.com
       `
     }
 

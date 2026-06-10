@@ -136,7 +136,7 @@ function ContactFormModal({ isOpen, onClose, productName = '', serviceType = '' 
               value={formState.phone}
               onChange={handleChange}
               className="w-full px-3 py-2 text-sm border rounded-md border-neutral-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50"
-              placeholder="+91 98110 32026"
+              placeholder="+91 93541 30059"
             />
           </div>
 

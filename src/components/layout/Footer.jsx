@@ -95,21 +95,21 @@ function Footer() {
               <li className="flex">
                 <FaMapMarkerAlt className="mt-1 mr-3 text-primary-500" />
                 <span>
-                  Plot No. 195, Sector-24<br />
-                  Faridabad, Haryana 121005<br />
+                  H-402, RIICO INDUSTRIAL AREA<br />
+                  Khuskhera, Alwar, Rajasthan 301707<br />
                   India
                 </span>
               </li>
               <li className="flex items-center">
                 <FaPhone className="mr-3 text-primary-500" />
-                <a href="tel:+919811032026" className="hover:text-white">
-                  +91 98110 32026
+                <a href="tel:+919354130059" className="hover:text-white">
+                  +91 93541 30059
                 </a>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-3 text-primary-500" />
-                <a href="mailto:dsengineering2000@gmail.com" className="hover:text-white">
-                  dsengineering2000@gmail.com
+                <a href="mailto:admin@dsengineeringworks.com" className="hover:text-white">
+                  admin@dsengineeringworks.com
                 </a>
               </li>
             </ul>

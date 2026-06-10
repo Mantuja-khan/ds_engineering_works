@@ -102,7 +102,7 @@ function ContactForm() {
       console.error('Form submission error:', error)
       setSubmitResult({
         success: false,
-        message: 'Sorry, there was an error sending your message. Please try again later or contact us directly at dsengineering2000@gmail.com'
+        message: 'Sorry, there was an error sending your message. Please try again later or contact us directly at admin@dsengineeringworks.com'
       })
     } finally {
       setIsSubmitting(false)
@@ -205,7 +205,7 @@ function ContactForm() {
             value={formState.phone}
             onChange={handleChange}
             className="w-full px-3 py-2 text-sm md:text-base border rounded-md border-neutral-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50"
-            placeholder="+91 98110 32026"
+            placeholder="+91 93541 30059"
           />
         </div>
         
@@ -355,20 +355,20 @@ function Contact() {
               <div className="space-y-6 md:space-y-8 mb-8 md:mb-10">
                 <ContactInfo icon={<FaMapMarkerAlt size={20} />} title="Our Location">
                   <address className="not-italic">
-                    Plot No. 195, Sector-24<br />
-                    Faridabad, Haryana 121005<br />
+                    H-402, RIICO INDUSTRIAL AREA<br />
+                    Khuskhera, Alwar, Rajasthan 301707<br />
                     India
                   </address>
                 </ContactInfo>
                 
                 <ContactInfo icon={<FaPhone size={20} />} title="Phone">
-                  <p>Main: <a href="tel:+919811032026" className="text-primary-600 hover:text-primary-700">+91 98110 32026</a></p>
-                  <p>Support: <a href="tel:+919811032026" className="text-primary-600 hover:text-primary-700">+91 98110 32026</a></p>
+                  <p>Main: <a href="tel:+919354130059" className="text-primary-600 hover:text-primary-700">+91 93541 30059</a></p>
+                  <p>Support: <a href="tel:+919354130059" className="text-primary-600 hover:text-primary-700">+91 93541 30059</a></p>
                 </ContactInfo>
                 
                 <ContactInfo icon={<FaEnvelope size={20} />} title="Email">
-                  <p>Info: <a href="mailto:dsengineering2000@gmail.com" className="text-primary-600 hover:text-primary-700">dsengineering2000@gmail.com</a></p>
-                  <p>Support: <a href="mailto:dsengineering2000@gmail.com" className="text-primary-600 hover:text-primary-700">dsengineering2000@gmail.com</a></p>
+                  <p>Info: <a href="mailto:admin@dsengineeringworks.com" className="text-primary-600 hover:text-primary-700">admin@dsengineeringworks.com</a></p>
+                  <p>Support: <a href="mailto:admin@dsengineeringworks.com" className="text-primary-600 hover:text-primary-700">admin@dsengineeringworks.com</a></p>
                 </ContactInfo>
                 
                 <ContactInfo icon={<FaClock size={20} />} title="Business Hours">

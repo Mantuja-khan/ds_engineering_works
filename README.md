@@ -32,7 +32,7 @@ The website includes a complete backend solution for handling contact form submi
 
 #### Features:
 - **Secure Form Processing** - Supabase Edge Functions handle form submissions
-- **Email Notifications** - Automatic emails sent to company Gmail (dsengineering2000@gmail.com)
+- **Email Notifications** - Automatic emails sent to company email (admin@dsengineeringworks.com)
 - **Rich HTML Emails** - Professional email templates with company branding
 - **Form Validation** - Client and server-side validation
 - **Product Inquiries** - Specialized forms for product/service inquiries
@@ -126,9 +126,9 @@ supabase functions deploy send-contact-email
 In your Supabase project dashboard, go to Settings > Edge Functions and add:
 - `SMTP_HOST`: smtp.gmail.com
 - `SMTP_PORT`: 587
-- `SMTP_USER`: dsengineering2000@gmail.com
+- `SMTP_USER`: admin@dsengineeringworks.com
 - `SMTP_PASS`: your-gmail-app-password
-- `COMPANY_EMAIL`: dsengineering2000@gmail.com
+- `COMPANY_EMAIL`: admin@dsengineeringworks.com
 
 #### 4. Gmail App Password Setup
 1. Enable 2-factor authentication on your Gmail account
@@ -223,17 +223,17 @@ The included `.htaccess` file provides:
 
 ### 📧 Contact Information
 
-- **Address**: Plot No. 195, Sector-24, Faridabad, Haryana 121005, India
-- **Phone**: +91 98110 32026
-- **Email**: dsengineering2000@gmail.com
+- **Address**: H-402, RIICO INDUSTRIAL AREA, Khuskhera, Alwar, Rajasthan, 301707, India
+- **Phone**: +91 93541 30059
+- **Email**: admin@dsengineeringworks.com
 - **Website**: [Your Domain]
 
 ### 🤝 Support
 
 For technical support or inquiries about our services, please contact us through:
 - Website contact form (automatically sends email to company)
-- Email: dsengineering2000@gmail.com
-- Phone: +91 98110 32026
+- Email: admin@dsengineeringworks.com
+- Phone: +91 93541 30059
 
 ### 📄 License
 

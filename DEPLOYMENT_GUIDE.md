@@ -232,8 +232,8 @@ RewriteRule ^(.*)$ /index.html [QSA,L]
 - **Knowledge Base**: https://support.hostinger.com/
 
 ### DS Engineering Technical
-- **Email**: dsengineering2000@gmail.com
-- **Phone**: +91 98110 32026
+- **Email**: admin@dsengineeringworks.com
+- **Phone**: +91 93541 30059
 
 ## 🔄 Future Updates
 
